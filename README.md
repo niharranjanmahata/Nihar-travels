@@ -1,30 +1,84 @@
-# Install vite in the react app
 
-<br/>
 
-## Step 1
+# Nihar Travels
 
-```
-$ npm create vite@latest
-```
+A travel website built with **React** and **Vite**, offering a fast and modern browsing experience for exploring destinations, planning trips, and discovering travel packages.
 
-> after this you select write your `project name ` and after send project name you select which `framework` you want to use and after this you select `javascript`
+## ✨ Features
 
-## Step 2
+- Responsive design for desktop and mobile
+- Fast development environment powered by Vite with HMR (Hot Module Replacement)
+- Clean and modular React component structure
+- ESLint configured for consistent code quality
 
-```
-$ npx degit user/project project-name
-cd project-name
-```
+## 🛠️ Tech Stack
 
-## Step 3
+- **React** – Frontend library for building UI
+- **Vite** – Next-generation frontend tooling for fast builds
+- **ESLint** – Linting for code quality
+- **JavaScript / JSX**
 
-```
-$ npm install
-```
-
-## Step 4
+## 📂 Project Structure
 
 ```
-$ npm run dev
+nihar-travel/
+├── public/          # Static assets
+├── src/             # Application source code
+│   ├── components/  # Reusable React components
+│   ├── pages/       # Page-level components
+│   └── App.jsx      # Root component
+├── index.html
+├── package.json
+└── vite.config.js
 ```
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (v18 or higher recommended)
+- npm
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/nihar-travels.git
+cd nihar-travels
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+### Running the Development Server
+
+```bash
+npm run dev
+```
+
+The app will be available at `http://localhost:5173` (default Vite port).
+
+### Building for Production
+
+```bash
+npm run build
+```
+
+### Previewing the Production Build
+
+```bash
+npm run preview
+```
+
+## 📝 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 🙋‍♂️ Author
+
+**Nihar**
+
